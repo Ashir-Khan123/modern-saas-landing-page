@@ -307,7 +307,7 @@
         </div>
       </div>
     </footer>
-    <script>
+    <script> 
       const menuBtn = document.querySelector(".menu-btn");
       const navLinks = document.querySelector(".nav_links");
       const menuIcon = document.querySelector(".menu-btn i");
@@ -318,12 +318,15 @@
         if (navLinks.classList.contains("active")) {
           menuIcon.classList.remove("fa-bars");
           menuIcon.classList.add("fa-xmark");
-          
+
         } else {
           menuIcon.classList.remove("fa-xmark");
           menuIcon.classList.add("fa-bars");
         }
       });
+      navLinks.addEventListener("click", () => {
+        navLinks.classList.remove("active");
+      })
     </script>
   </body>
 </html>
