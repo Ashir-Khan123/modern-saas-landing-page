@@ -11,9 +11,10 @@
       href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Space+Grotesk:wght@300..700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./responsive.css" />
     <!-- CSS Link -->
     <link rel="stylesheet" href="./style.css" />
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="./responsive.css" />
     <!-- Font Awesome Link -->
     <link
       rel="stylesheet"
@@ -309,8 +310,19 @@
     <script>
       const menuBtn = document.querySelector(".menu-btn");
       const navLinks = document.querySelector(".nav_links");
+      const menuIcon = document.querySelector(".menu-btn i");
+
       menuBtn.addEventListener("click", () => {
         navLinks.classList.toggle("active");
+
+        if (navLinks.classList.contains("active")) {
+          menuIcon.classList.remove("fa-bars");
+          menuIcon.classList.add("fa-xmark");
+          
+        } else {
+          menuIcon.classList.remove("fa-xmark");
+          menuIcon.classList.add("fa-bars");
+        }
       });
     </script>
   </body>
