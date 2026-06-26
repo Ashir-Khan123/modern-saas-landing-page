@@ -33,6 +33,11 @@
 .header_logo a:hover {
   color: #5b4bff;
 }
+.menu-btn{
+    display:none;
+    font-size:26px;
+    cursor:pointer;
+}
 .nav_links {
   display: flex;
   list-style: none;

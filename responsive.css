@@ -1,0 +1,306 @@
+/* ===========================
+      Tablet (992px)
+=========================== */
+
+@media (max-width:992px){
+
+.header{
+    padding:18px 30px;
+}
+
+.hero_section{
+    flex-direction:column;
+    text-align:center;
+    align-items:center;
+    gap:50px;
+}
+
+.hero_heading{
+    font-size:48px;
+}
+
+.hero_para{
+    margin:auto;
+    margin-top:20px;
+}
+
+.btns{
+    justify-content:center;
+}
+
+.hero_right img{
+    width:100%;
+    max-width:550px;
+}
+
+.service_cards{
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.service_card1,
+.service_card2,
+.service_card3{
+    width:45%;
+}
+
+.pricing_cards{
+    flex-wrap:wrap;
+    gap:25px;
+}
+
+.pricing_card1,
+.pricing_card2,
+.pricing_card3{
+    width:45%;
+}
+
+.contact_sides{
+    flex-direction:column;
+    gap:50px;
+    padding:0;
+}
+
+.right_side{
+    width:100%;
+}
+
+.footer_content{
+    flex-wrap:wrap;
+    gap:40px;
+    justify-content:center;
+}
+
+}
+
+
+/* ===========================
+      Mobile (768px)
+=========================== */
+
+@media (max-width:768px){
+.header{
+
+    padding:18px 20px;
+    position:fixed;
+}
+
+.menu-btn{
+
+    display:block;
+}
+
+.header_btn{
+
+    display:none;
+}
+
+.nav_links{
+
+    position:absolute;
+
+    top:80px;
+    left:-100%;
+
+    width:100%;
+
+    background:#fff;
+
+    flex-direction:column;
+
+    text-align:center;
+
+    gap:25px;
+
+    padding:30px 0;
+
+    transition:.4s ease;
+
+    box-shadow:0 10px 20px rgba(0,0,0,.08);
+}
+
+.nav_links.active{
+
+    left:0;
+}
+.header{
+
+    flex-direction:column;
+    gap:20px;
+    padding:20px;
+    position:relative;
+}
+
+.hero_section{
+
+    padding:40px 20px;
+    padding-top:60px;
+}
+
+.hero_heading{
+
+    font-size:40px;
+}
+
+.hero_para{
+
+    font-size:17px;
+}
+
+.hero_tag{
+
+    margin:auto;
+}
+
+.hero_right img{
+
+    width:100%;
+}
+
+.service_section{
+
+    padding:40px 20px;
+}
+
+.service_cards{
+
+    flex-direction:column;
+}
+
+.service_card1,
+.service_card2,
+.service_card3{
+
+    width:100%;
+}
+
+.service_inner1,
+.service_inner2,
+.service_inner3{
+
+    flex-direction:column;
+    text-align:center;
+}
+
+.pricing_section{
+
+    padding:40px 20px;
+}
+
+.pricing_cards{
+
+    flex-direction:column;
+}
+
+.pricing_card1,
+.pricing_card2,
+.pricing_card3{
+
+    width:100%;
+}
+
+.contact{
+
+    padding:40px 20px;
+}
+
+.name_email{
+
+    flex-direction:column;
+    gap:0;
+}
+
+.contact_sides{
+
+    gap:40px;
+}
+
+.footer_content{
+
+    flex-direction:column;
+    text-align:center;
+    align-items:center;
+}
+
+.footer_icons{
+
+    justify-content:center;
+}
+
+.email_btn{
+
+    flex-direction:column;
+}
+
+.footer_col1,
+.footer_col2,
+.footer_col3,
+.footer_col4{
+
+    width:100%;
+}
+
+}
+
+
+/* ===========================
+      Small Mobile (480px)
+=========================== */
+
+@media (max-width:480px){
+
+.hero_heading{
+
+    font-size:32px;
+}
+
+.hero_para{
+
+    font-size:15px;
+}
+
+.btns{
+
+    flex-direction:column;
+}
+
+.btn1,
+.btn2{
+
+    width:100%;
+}
+
+.pricing_card1,
+.pricing_card2,
+.pricing_card3{
+
+    padding:20px;
+}
+
+.pricing_btn1,
+.pricing_btn2,
+.pricing_btn3{
+
+    width:100%;
+}
+
+.pricing_btn1 a,
+.pricing_btn2 a,
+.pricing_btn3 a{
+
+    padding:0;
+}
+
+.right_side h2{
+
+    text-align:center;
+}
+
+.email,
+.phone,
+.location{
+
+    align-items:flex-start;
+}
+
+}
